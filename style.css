@@ -1,0 +1,194 @@
+html {
+    margin:0;
+}
+
+body {
+    background-color: black;
+}
+header {
+    margin:0 auto;
+    padding-top: 0%;
+    background-color: rgb(66, 67, 7);
+    display:flex;
+    justify-content: space-between;
+}
+
+
+ul li{
+    font-weight: bold;
+    list-style-type: none;
+    color:orange;
+    display:inline;
+    font-size: 1.3rem;
+    padding-right:1.9em;
+    justify-content: space-between;
+}
+/*-----------banner--------------*/
+
+.banner {
+   background-color: rgb(135, 71, 31);
+   padding-bottom: 1rem;
+   position: relative;
+   top:9rem;
+}
+
+
+.banner h1{
+    color:rgba(228, 70, 13, 0.781);
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    top:0.7em;
+    margin-bottom: 2rem;
+}
+
+/* --------------journal-----------*/
+
+.journal{
+    position:relative;
+    top:22rem;
+    font-weight: bold;
+}
+
+.journal h2{
+    color:yellow;
+    font-size: 2em;
+}
+
+.journal p{
+    color:white;
+    font-size: 1.2em;
+}
+
+a{
+    color:purple;
+}
+
+/*-----------welcome images-------*/
+
+.welcome{
+   display: flex;
+    width:100%;
+    position: relative;
+    top:26rem;
+}
+
+.walk {
+    display:flex;
+    justify-content: space-between;
+    padding:2rem;
+    width:25rem;
+    height: 20rem;
+
+
+}
+
+/*------------motto-----------*/
+
+.motto{
+    padding:2rem;
+    background-color: rgb(11, 32, 11);
+    position: relative;
+    top:26rem;
+}
+.motto p{
+    font-weight:bold;
+    color:yellow;
+}
+
+.build{
+    font-size:2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.build1{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.meetup{
+    display:flex;
+    width:100%;
+    position: relative;
+    top:29rem;
+}
+
+.build2 {
+    width:25rem;
+    height:20rem;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/*-------join fun-------*/
+
+.fun{
+    width:100%;
+    position: relative;
+    top:28rem;
+    text-align: center;
+    color:yellow;
+    font-size: 2em;
+}
+.win{
+    width:50rem;
+    height:40rem;
+    
+}
+
+/*------footer-----*/
+
+footer{
+    position:relative;
+    top:32rem;
+    margin:0 auto;
+    padding-top: 0%;
+    background-color: rgb(66, 67, 7);
+    display:flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width:600px) {
+    header {
+        text-decoration:underline;
+        color:black;
+    }
+
+    .welcome{
+        flex-direction: column;
+    }
+
+    .meetup{
+        flex-direction: column;
+    }
+
+    .win{
+        width:12em;
+        height:16em;
+    }
+
+    body{
+        font-size: 0.9em;
+        background-color: black;
+    }
+
+    .build2{
+        align-items: center;
+        width:18em;
+        height:18em;
+        padding-left:9rem;
+    }
+
+    .walk{
+        align-items: center;
+        width:17em;
+        height:18em;
+        padding-left:9rem;
+    }
+
+    .banner{
+        opacity:0.7;
+    }
+}
